@@ -36,3 +36,5 @@ ENV PATH $NVM_DIR/versions/node/v$NODE_VERSION/bin:$PATH
 
 # install node dependencies
 RUN npm install
+
+CMD python backend/app.py
